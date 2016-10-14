@@ -1,8 +1,8 @@
 ![Alt text](/nfq_solutions.png?raw=true)
 
-# [NFQ Solutions S.L.](http://nfqsolutions.github.io)
+# [NFQ](http://nfqsolutions.github.io)
 
-[NFQ Solutions S.L.](http://nfqsolutions.github.io) es una consultoría, en la que ponemos la tecnología, la ciencia y la innovación al servicio de nuestros clientes. Contamos con múltiples soluciones propias, implantadas en entidades nacionales e internacionales que permiten cubrir el grueso de necesidades en el ámbito de la gestión, la medición y el control de riesgos.
+En [NFQ](http://nfqsolutions.github.io) ponemos la tecnología, la ciencia y la innovación al servicio de nuestros clientes. Contamos con múltiples soluciones propias, implantadas en entidades nacionales e internacionales que permiten cubrir el grueso de necesidades en el ámbito de la gestión, la medición y el control de riesgos.
 
 **Soluciones Financieras.** Propias, flexibles y adaptables diseñadas a partir de módulos para adaptarlas a las necesidades de cada cliente.
 
