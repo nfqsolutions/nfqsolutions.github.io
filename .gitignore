@@ -103,3 +103,7 @@ fabric.properties
 
 .idea/
 
+*.iml
+
+node_modules/
+
