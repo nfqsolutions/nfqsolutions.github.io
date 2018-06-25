@@ -47,4 +47,40 @@
     $(".navbar").removeClass("d-none");
   })
 
+
+  //CUSTOM NFQ
+
+  /**
+   * Devuelve el valor de un parámetro de la url por name
+   * @param name
+   * @param url
+   * @returns {*}
+   */
+  function getParameterByName(name, url) {
+    if (!url) url = window.location.href;
+    name = name.replace(/[\[\]]/g, "\\$&");
+    var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)"),
+        results = regex.exec(url);
+    if (!results) return null;
+    if (!results[2]) return '';
+    return decodeURIComponent(results[2].replace(/\+/g, " "));
+  }
+
+  //Función para abrir el modal de la oferta correspondiente al query param "oferta"
+  var openModal = function () {
+    var ofertaParam = getParameterByName("oferta", window.location);
+
+    var idOferta = ofertaParam != null ? "#" + ofertaParam : null;
+
+    if(idOferta) {
+      console.log("Parámetro oferta encontrado, abriendo oferta con id " + idOferta);
+      $(idOferta).modal();
+    }
+  };
+
+  $(function() {
+    //Llama a la función openModal al cargar la página
+    openModal()
+  });
+
 })(jQuery); // End of use strict
