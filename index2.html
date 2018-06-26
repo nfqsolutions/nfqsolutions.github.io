@@ -39,6 +39,9 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Ofertas</a>
             </li>
             <li class="nav-item">
@@ -60,13 +63,71 @@
       </div>
     </header>
 
+    <!-- About -->
+    <section id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">About</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-12">
+            <ul class="timeline">
+              <li>
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/3.jpg" alt="">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Por qué</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      En <a target="_blank" href="http://nfq.es/solutions/">NFQ Solutions</a> los proyectos están
+                      creciendo y buscamos diferentes perfiles que quieran aprender sobre finanzas y nuevas tecnologías
+                      para colaborar el desarrollo de nuestras propias aplicaciones
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <img class="rounded-circle img-fluid" src="img/about/nfq.png" alt="" style="height: 100%;">
+                </div>
+                <div class="timeline-panel">
+                  <div class="timeline-heading">
+                    <h4>Dónde</h4>
+                  </div>
+                  <div class="timeline-body">
+                    <p class="text-muted">
+                      Los nuevos miembros se incorporarán al equipo de desarrollo que trabaja en nuestras oficinas del centro de
+                      <a target="_blank" href="https://www.google.es/maps/place/Calle+de+Claudio+Coello,+78,+28001+Madrid/@40.4291655,-3.686445,16.81z/data=!4m5!3m4!1s0xd42289448065b3b:0xbb9d75b79f81fb22!8m2!3d40.4301529!4d-3.685679?hl=es&authuser=0">
+                        Madrid
+                      </a>
+                    </p>
+                  </div>
+                </div>
+              </li>
+              <li class="timeline-inverted">
+                <div class="timeline-image">
+                  <h4>Sé parte
+                    <br>de nuestra
+                    <br>historia!</h4>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Portfolio Grid -->
     <section class="bg-light" id="portfolio">
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Ofertas</h2>
-            <h3 class="section-subheading text-muted">Aquí tienes las ofertas de NFQ Solutions</h3>
           </div>
         </div>
         <div class="row">
@@ -133,7 +194,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/java-logo.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/java-logo.png" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Senior</h4>
@@ -147,7 +208,7 @@
                   <i class="fa fa-plus fa-3x"></i>
                 </div>
               </div>
-              <img class="img-fluid" src="img/portfolio/java-logo.jpg" alt="">
+              <img class="img-fluid" src="img/portfolio/java-logo.png" alt="">
             </a>
             <div class="portfolio-caption">
               <h4>Junior</h4>
@@ -163,41 +224,9 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Contact Us</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <form id="contactForm" name="sentMessage" novalidate="novalidate">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <input class="form-control" id="name" type="text" placeholder="Your Name *" required="required" data-validation-required-message="Please enter your name.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="email" type="email" placeholder="Your Email *" required="required" data-validation-required-message="Please enter your email address.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                  <div class="form-group">
-                    <input class="form-control" id="phone" type="tel" placeholder="Your Phone *" required="required" data-validation-required-message="Please enter your phone number.">
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="form-group">
-                    <textarea class="form-control" id="message" placeholder="Your Message *" required="required" data-validation-required-message="Please enter a message."></textarea>
-                    <p class="help-block text-danger"></p>
-                  </div>
-                </div>
-                <div class="clearfix"></div>
-                <div class="col-lg-12 text-center">
-                  <div id="success"></div>
-                  <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Send Message</button>
-                </div>
-              </div>
-            </form>
+            <h2 class="section-heading text-uppercase">Contacta con nosotros</h2>
+            <h3 class="section-subheading text-muted">Si buscas un nuevo reto como developer, escribenos a: </h3>
+            <a href="mailto:miriam.delgado@nfq.es?Subject=Manfre" target="_top">miriam.delgado@nfq.es</a>
           </div>
         </div>
       </div>
@@ -208,7 +237,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">Copyright &copy; Your Website 2018</span>
+            <span class="copyright">NFQ Solutions 2018</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -230,14 +259,7 @@
             </ul>
           </div>
           <div class="col-md-4">
-            <ul class="list-inline quicklinks">
-              <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
-              </li>
-            </ul>
+
           </div>
         </div>
       </div>
@@ -259,18 +281,48 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/01-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Threads</li>
-                    <li>Category: Illustration</li>
+                  <h2 class="text-uppercase">Python</h2>
+                  <h3>Senior Developer</h3>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Descripción:
+                  </p>
+                  <p style="text-align: left">
+                    El core del software de <b>NFQ Solutions</b> es Python. Está formado por módulos de cálculo
+                    financiero con arquitecturas de alto rendimiento, distribuidas y escalables.
+                    Los proyectos se despliegan tanto en modalidad on-premise en nuestros clientes como on-cloud sobre AWS.
+                  </p>
+                  <p style="text-align: left">
+                    Usamos la metodología <b>Scrumban</b> para la gestión de los proyectos y del equipo.
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Conocimientos que valoraremos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>NumPy</li>
+                    <li>ZeroMQ/ActiveMQ</li>
+                    <li>pandas</li>
+                    <li>Boto 3</li>
+                    <li>Linux</li>
+                    <li>Manejo con entornos de integración contínua</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Qué ofrecemos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>Salario de <b>28k€ – 41k€</b> según la experiencia</li>
+                    <li>Bonos por objetivos</li>
+                    <li>Retribución flexible</li>
+                    <li>Formación financiada obligatoria</li>
+                    <li>Programa de conciliación laboral</li>
+                    <li>Plan de carrera profesional</li>
+                  </ul>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Contacto:
+                  </p>
+                  <p style="text-align: left">
+                    Si estás interesado, escribenos a
+                    <a href="mailto:miriam.delgado@nfq.es?Subject=OfertaManfre" target="_top">miriam.delgado@nfq.es</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -293,18 +345,44 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/02-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Explore</li>
-                    <li>Category: Graphic Design</li>
+                  <h2 class="text-uppercase">Python</h2>
+                  <h3>Junior Developer</h3>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Descripción:
+                  </p>
+                  <p style="text-align: left">
+                    El core del software de <b>NFQ Solutions</b> es Python. Está formado por módulos de cálculo
+                    financiero con arquitecturas de alto rendimiento, distribuidas y escalables.
+                    Los proyectos se despliegan tanto en modalidad on-premise en nuestros clientes como on-cloud sobre AWS.
+                  </p>
+                  <p style="text-align: left">
+                    Usamos la metodología <b>Scrumban</b> para la gestión de los proyectos y del equipo.
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Valoraremos que:
+                  </p>
+                  <p style="text-align: left">
+                    Conozcas Python, te manejes con Linux y tengas ganas de aprender y crecer como developer.
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Qué ofrecemos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>Salario de <b>18k – 26k€</b></li>
+                    <li>Bonos por objetivos</li>
+                    <li>Retribución flexible</li>
+                    <li>Formación financiada obligatoria</li>
+                    <li>Programa de conciliación laboral</li>
+                    <li>Plan de carrera profesional</li>
+                    <li>Trabajar con tecnologías y metodologías modernas</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Contacto:
+                  </p>
+                  <p style="text-align: left">
+                    Si estás interesado, escribenos a
+                    <a href="mailto:miriam.delgado@nfq.es?Subject=OfertaManfre" target="_top">miriam.delgado@nfq.es</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -327,18 +405,46 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/03-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Finish</li>
-                    <li>Category: Identity</li>
+                  <h2 class="text-uppercase">Front-End</h2>
+                  <h3>Desarrollador Senior</h3>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Descripción:
+                  </p>
+                  <p style="text-align: left">
+                    Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <p style="text-align: left">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Valoraremos que:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>xxx</li>
+                    <li>yyy</li>
+                    <li>zzz</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Qué ofrecemos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>Salario de <b>aak – bbk€</b></li>
+                    <li>Bonos por objetivos</li>
+                    <li>Retribución flexible</li>
+                    <li>Formación financiada obligatoria</li>
+                    <li>Programa de conciliación laboral</li>
+                    <li>Plan de carrera profesional</li>
+                    <li>Trabajar con tecnologías y metodologías modernas</li>
+                  </ul>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Contacto:
+                  </p>
+                  <p style="text-align: left">
+                    Si estás interesado, escribenos a
+                    <a href="mailto:miriam.delgado@nfq.es?Subject=OfertaManfre" target="_top">miriam.delgado@nfq.es</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -361,18 +467,46 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/04-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Lines</li>
-                    <li>Category: Branding</li>
+                  <h2 class="text-uppercase">Front-End</h2>
+                  <h3>Desarrollador Junior</h3>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Descripción:
+                  </p>
+                  <p style="text-align: left">
+                    Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <p style="text-align: left">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Valoraremos que:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>xxx</li>
+                    <li>yyy</li>
+                    <li>zzz</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Qué ofrecemos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>Salario de <b>aak – bbk€</b></li>
+                    <li>Bonos por objetivos</li>
+                    <li>Retribución flexible</li>
+                    <li>Formación financiada obligatoria</li>
+                    <li>Programa de conciliación laboral</li>
+                    <li>Plan de carrera profesional</li>
+                    <li>Trabajar con tecnologías y metodologías modernas</li>
+                  </ul>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Contacto:
+                  </p>
+                  <p style="text-align: left">
+                    Si estás interesado, escribenos a
+                    <a href="mailto:miriam.delgado@nfq.es?Subject=OfertaManfre" target="_top">miriam.delgado@nfq.es</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -395,18 +529,46 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/05-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Southwest</li>
-                    <li>Category: Website Design</li>
+                  <h2 class="text-uppercase">JAVA</h2>
+                  <h3>Desarrollador Senior</h3>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Descripción:
+                  </p>
+                  <p style="text-align: left">
+                    Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <p style="text-align: left">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Valoraremos que:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>xxx</li>
+                    <li>yyy</li>
+                    <li>zzz</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Qué ofrecemos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>Salario de <b>aak – bbk€</b></li>
+                    <li>Bonos por objetivos</li>
+                    <li>Retribución flexible</li>
+                    <li>Formación financiada obligatoria</li>
+                    <li>Programa de conciliación laboral</li>
+                    <li>Plan de carrera profesional</li>
+                    <li>Trabajar con tecnologías y metodologías modernas</li>
+                  </ul>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Contacto:
+                  </p>
+                  <p style="text-align: left">
+                    Si estás interesado, escribenos a
+                    <a href="mailto:miriam.delgado@nfq.es?Subject=OfertaManfre" target="_top">miriam.delgado@nfq.es</a>
+                  </p>
                 </div>
               </div>
             </div>
@@ -429,18 +591,46 @@
               <div class="col-lg-8 mx-auto">
                 <div class="modal-body">
                   <!-- Project Details Go Here -->
-                  <h2 class="text-uppercase">Project Name</h2>
-                  <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                  <img class="img-fluid d-block mx-auto" src="img/portfolio/06-full.jpg" alt="">
-                  <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
-                  <ul class="list-inline">
-                    <li>Date: January 2017</li>
-                    <li>Client: Window</li>
-                    <li>Category: Photography</li>
+                  <h2 class="text-uppercase">JAVA</h2>
+                  <h3>Desarrollador Junior</h3>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Descripción:
+                  </p>
+                  <p style="text-align: left">
+                    Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia
+                    expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                  </p>
+                  <p style="text-align: left">
+                    Lorem ipsum dolor sit amet
+                  </p>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Valoraremos que:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>xxx</li>
+                    <li>yyy</li>
+                    <li>zzz</li>
                   </ul>
-                  <button class="btn btn-primary" data-dismiss="modal" type="button">
-                    <i class="fa fa-times"></i>
-                    Close Project</button>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Qué ofrecemos:
+                  </p>
+                  <ul class="list-inline" style="text-align: left">
+                    <li>Salario de <b>aak – bbk€</b></li>
+                    <li>Bonos por objetivos</li>
+                    <li>Retribución flexible</li>
+                    <li>Formación financiada obligatoria</li>
+                    <li>Programa de conciliación laboral</li>
+                    <li>Plan de carrera profesional</li>
+                    <li>Trabajar con tecnologías y metodologías modernas</li>
+                  </ul>
+                  <p class="item-intro text-muted" style="text-align: left">
+                    Contacto:
+                  </p>
+                  <p style="text-align: left">
+                    Si estás interesado, escribenos a
+                    <a href="mailto:miriam.delgado@nfq.es?Subject=OfertaManfre" target="_top">miriam.delgado@nfq.es</a>
+                  </p>
                 </div>
               </div>
             </div>
